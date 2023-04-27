@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color: #397bcb;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+}
+
+.navbar .headerBtn .btn1 {
+  background: transparent;
+  color: var(--color);
+  border-radius: 7px;
+  padding: 1rem 1.5rem;
+  border: 2px solid;
+  font-size: 1.2rem;
+}
+.navbar .headerBtn .btn2 {
+  background: var(--color);
+  color: white;
+  border-radius: 7px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.hero .heroText {
+  margin-top: 5rem;
+}
+.hero .heroText h1 {
+  color: #397bcb;
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+.hero .heroText h1 .heroSpan {
+  font-weight: bolder;
+}
+.hero .heroText p {
+  color: rgba(11, 96, 201, 0.8);
+  font-size: 1.6rem;
+}
+.hero .heroText .btn3 {
+  border: none;
+  background: #397bcb;
+  color: white;
+  border-radius: 9px;
+  padding: 1.2rem 7rem;
+  font-size: 2rem;
+  transition: 0.5s linear;
+}
+.hero .heroText .btn3:hover {
+  background: rgba(57, 123, 203, 0.7725490196);
+}
+
+.connect {
+  margin-bottom: 15rem;
+}
+.connect h1 {
+  color: #397bcb;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+.connect .connectItems {
+  margin-bottom: 1rem;
+  display: flex;
+  margin-left: 23rem;
+}
+.connect .connectItems .connectIcon {
+  background: #397bcb;
+  border-radius: 50px;
+}
+.connect .connectItems .connectIcon i {
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect .connectItems .connectText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.connect .connectItems .connectText h3 {
+  color: #397bcb;
+}
+
+@media screen and (max-width: 578px) {
+  .connect {
+    margin-top: 5rem;
+  }
+  .connect h1 {
+    font-size: 1.8rem;
+  }
+  .connect .connectItems {
+    margin-left: 0;
+  }
+}
+.skills {
+  margin: 0 auto 15rem auto;
+}
+.skills h1 {
+  color: #397bcb;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+.skills .card {
+  background: #397bcb;
+  width: 25rem;
+  border-radius: 15px;
+  transition: all 0.5s linear;
+}
+.skills .card .skillsLevel {
+  display: flex;
+}
+.skills .card .skillsLevel .skillsImg {
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .card .skillsLevel .skillsText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .card .skillsLevel .skillsText .innerText p {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 578px) {
+  .skills .card {
+    margin: 0 auto;
+    width: 30rem;
+  }
+}
+.boardContainer {
+  background: var(--color);
+  padding: 7rem;
+}
+.boardContainer .boardText h4 {
+  font-size: 2.8rem;
+}
+.boardContainer .boardBtn button {
+  border: none;
+  background: white;
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-top: 2rem;
+}/*# sourceMappingURL=main.css.map */
